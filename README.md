@@ -17,8 +17,8 @@ Click any project to obtain more info, schematics, and arduino code.
 * [Motors](https://github.com/JaledMC/Learning-arduino/wiki/Motors): control motors with an H bridge and make them stop, go forward or reverse. 
 * [Servo control](https://github.com/JaledMC/Learning-arduino/wiki/Servo-control): program the servo position between 0 to 120 degrees.
 * [Position control](https://github.com/JaledMC/Learning-arduino/wiki/Position-control): control the position of a servo with a potentiometer through analog read measurements.
-* [Robot](https://github.com/JaledMC/Learning-arduino/wiki/Robot)
-* [Ultrasound](https://github.com/JaledMC/Learning-arduino/wiki/Ultrasound)
-* [Theremin](https://github.com/JaledMC/Learning-arduino/wiki/Theremin)
-* [Obstacle avoider](https://github.com/JaledMC/Learning-arduino/wiki/Obstacle-avoider)
-* [Bluetooth](https://github.com/JaledMC/Learning-arduino/wiki/Bluetooth)
+* [Robot](https://github.com/JaledMC/Learning-arduino/wiki/Robot): go forward, turn and move in any direction a two wheels robot.
+* [Ultrasound](https://github.com/JaledMC/Learning-arduino/wiki/Ultrasound): measure the distance to an object with and ultrasonic sensor.
+* [Theremin](https://github.com/JaledMC/Learning-arduino/wiki/Theremin): change the tone with the distance to our hand with and HC-SR04 sensor.
+* [Obstacle avoider](https://github.com/JaledMC/Learning-arduino/wiki/Obstacle-avoider): make a two wheels robot to avoid obstacles with ultrasonic sensor.
+* [Bluetooth](https://github.com/JaledMC/Learning-arduino/wiki/Bluetooth): use a bluetooth receiver module to control the direction, sound and lights of the robot.
