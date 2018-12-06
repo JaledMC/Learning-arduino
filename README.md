@@ -2,7 +2,7 @@
 
 This repository stores some projects maked with arduino, to introduce step by step, from begginers level, microcontrollers, sensors, and other electronics components. 
 
-* [Home](https://github.com/JaledMC/Learning-arduino/wiki)
+* [Arduino basics](https://github.com/JaledMC/Learning-arduino/wiki)
 * [Blink](https://github.com/JaledMC/Learning-arduino/wiki/Blink)
 * [Knight rider](https://github.com/JaledMC/Learning-arduino/wiki/Knight-rider)
 * [Sound](https://github.com/JaledMC/Learning-arduino/wiki/Sound)
