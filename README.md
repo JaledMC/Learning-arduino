@@ -4,7 +4,7 @@ This repository stores some projects maked with arduino, to introduce step by st
 
 Click any project to obtain more info, schematics, and arduino code.
 
-* [Arduino basics](https://github.com/JaledMC/Learning-arduino/wiki): typical noob errors.
+* [Typical arduino errors](https://github.com/JaledMC/Learning-arduino/wiki/Typical-Arduino-errors): typical noob errors.
 * [Blink](https://github.com/JaledMC/Learning-arduino/wiki/Blink): make a led blink.
 * [Knight rider](https://github.com/JaledMC/Learning-arduino/wiki/Knight-rider): light sequences.
 * [Sound](https://github.com/JaledMC/Learning-arduino/wiki/Sound): make sounds and music with a buzzer or speaker.
