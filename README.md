@@ -1,6 +1,6 @@
 # Learning-arduino
 
-This repository stores some projects maked with arduino, to introduce step by step, from begginers level, of microcontrollers, sensors, and other electronics components. 
+This repository stores some projects maked with arduino, to introduce step by step, from begginers level, of microcontrollers, sensors, and other electronics components. It's recomended to see the code while reading the info. Click on the **code link** of each project for that.
 
 Click any project to obtain more info, schematics, and arduino code.
 
