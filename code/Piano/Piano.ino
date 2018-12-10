@@ -1,31 +1,29 @@
-/***   Global variables   ***/
-
-/***   Function declaration   ***/
-
+const D = 261
+const A = 3
+const B = 494
+const piezo = 9
+const button1 = 2
+const button2 = 3
+const timeMusic = 100
+  
 void setup()
 {
-
-
-  pinMode(2,INPUT);
-
-  pinMode(3,INPUT);
-
+  pinMode(button1,INPUT);
+  pinMode(button2,INPUT);
 }
-
 
 void loop()
 {
-    if (digitalRead(2) == HIGH) {
-      tone(9,261,100);
-      delay(100);
-     }else if (digitalRead(3) == HIGH) {
-      tone(9,440,100);
-      delay(100);
-     }else if ((digitalRead(3) == HIGH) && (digitalRead(2) == HIGH)) {
-      tone(9,494,100);
-      delay(100);
+    if (digitalRead(button1) == HIGH) {
+      tone(piezo,D,timeMusic);
+      delay(timeMusic);
+      
+     } else if (digitalRead(button2) == HIGH) {
+      tone(piezo,A,timeMusic);
+      delay(timeMusic);
+      
+     } else if ((digitalRead(button1) == HIGH) && (digitalRead(button2) == HIGH)) {
+      tone(piezo,B,timeMusic);
+      delay(timeMusic);
      }
-
 }
-
-/***   Function definition   ***/
