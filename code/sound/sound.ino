@@ -1,9 +1,10 @@
 void setup()
 {
 }
+
 void loop()
 {
-   tone(11,440,500);
+  tone(11,440,500);
   delay(500);
   tone(11,440,500);
   delay(500);
