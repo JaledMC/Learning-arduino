@@ -1,10 +1,7 @@
 void setup() {
-  pinMode(10, OUTPUT);
 }
 
-
 void loop() {
-  
   // play e4
   delay(600);
   tone(10, 329.63, 300);
@@ -261,8 +258,6 @@ void loop() {
   // play a3
   tone(10, 220, 900);
   delay(1000);
-  
+ 
   delay(5000);
-
-
 }
