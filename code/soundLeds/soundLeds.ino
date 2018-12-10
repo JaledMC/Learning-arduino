@@ -3,6 +3,7 @@ void setup() {
   pinMode(2, OUTPUT);	   
   pinMode(3, OUTPUT);	   	 
 }  
+
 void loop() {  
   digitalWrite(13, HIGH);   // led on  
   tone(11,523,1000);  
