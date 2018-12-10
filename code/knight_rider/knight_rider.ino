@@ -1,21 +1,10 @@
-/***   Global variables   ***/
-
-/***   Function declaration   ***/
-
 void setup()
 {
-
-
   pinMode(3,OUTPUT);
-
   pinMode(4,OUTPUT);
-
   pinMode(5,OUTPUT);
-
   pinMode(6,OUTPUT);
-
 }
-
 
 void loop()
 {
@@ -35,7 +24,4 @@ void loop()
     delay(500);
     digitalWrite(3,LOW);
     delay(500);
-
 }
-
-/***   Function definition   ***/
