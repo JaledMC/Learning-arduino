@@ -1,7 +1,7 @@
 
-const int red = 9;
-const int blue = 10;
-const int green = 11;
+#define red 9
+#define blue 10
+#define green 11
 
 // the setup routine runs once when you press reset:
 void setup() {                
