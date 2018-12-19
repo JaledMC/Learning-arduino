@@ -1,10 +1,10 @@
-const int D = 261
-const int A = 3
-const int B = 494
-const int piezo = 9
-const int button1 = 2
-const int button2 = 3
-const int timeMusic = 100
+#define D 261
+#define A 3
+#define B 494
+#define piezo 9
+#define button1 2
+#define button2 3
+#define timeMusic 100
   
 void setup()
 {
