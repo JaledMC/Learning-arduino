@@ -12,7 +12,6 @@ Click any project to obtain more info, schematics, and arduino code.
 * [Piano](https://github.com/JaledMC/Learning-arduino/wiki/Piano): make a piano with one buzzer and buttons.
 * [Analog read](https://github.com/JaledMC/Learning-arduino/wiki/Analog-read): read analog values and print them on the screen.
 * [LDR control](https://github.com/JaledMC/Learning-arduino/wiki/LDR-control): use light sensors to turn on leds at night.
-* [LDR schmitt trigger](https://github.com/JaledMC/Learning-arduino/wiki/LDR-schmitt-trigger): use more than one level with the light sensors to prevent fast switching leds.
 * [RGB](https://github.com/JaledMC/Learning-arduino/wiki/RGB): control an RGB led with PWM pins to generate multiple colors.
 * [Motors](https://github.com/JaledMC/Learning-arduino/wiki/Motors): control motors with an H bridge and make them stop, go forward or reverse. 
 * [Servo control](https://github.com/JaledMC/Learning-arduino/wiki/Servo-control): program the servo position between 0 to 120 degrees.
