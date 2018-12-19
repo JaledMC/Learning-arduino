@@ -1,25 +1,23 @@
-int luz=0; //variable donde guardamos el nivel de luz
+int light=0; //this variable stores the ldr value
 void setup()
 {
-  pinMode(5,OUTPUT);         //configuramos las salidas de los leds
+  pinMode(5,OUTPUT);         //led pins configuration
   pinMode(6,OUTPUT);
+  digitalWrite(5,LOW);
+  digitalWrite(6,LOW);
   Serial.begin(9600);
 }
 void loop()
 {
   
-  luz=analogRead(A0);         //medimos el sensor y lo guardamos en la variable
+  light=analogRead(A0);         
   Serial.println(luz);
-  delay(1);        // delay in between reads for stability
-  if (luz < 500) {               //si el sensor mide mas de 500, apagamos luces
+  delay(1);                        // delay between reads for stability
+  if (light > 500) {               //if light is greater than 500, turn off the leds
     digitalWrite(5,LOW);
     digitalWrite(6,LOW);
    }
-   else if((luz > 500) & (luz < 800)){
-     digitalWrite(5,LOW);
-     digitalWrite(6,HIGH);
-   }
-else {                    //en caso de no llegar a 500, apagamos luces
+  if (light < 400) {               //if light is greater than 500, turn off the leds
     digitalWrite(5,HIGH);
     digitalWrite(6,HIGH);
    }
