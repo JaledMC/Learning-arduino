@@ -1,7 +1,7 @@
 
-int red = 9;
-int blue = 10;
-int green = 11;
+const int red = 9;
+const int blue = 10;
+const int green = 11;
 
 // the setup routine runs once when you press reset:
 void setup() {                
