@@ -1,10 +1,10 @@
-const D = 261
-const A = 3
-const B = 494
-const piezo = 9
-const button1 = 2
-const button2 = 3
-const timeMusic = 100
+const int D = 261
+const int A = 3
+const int B = 494
+const int piezo = 9
+const int button1 = 2
+const int button2 = 3
+const int timeMusic = 100
   
 void setup()
 {
