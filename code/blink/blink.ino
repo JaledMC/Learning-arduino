@@ -1,4 +1,4 @@
-const led = 13 // we can assign a name to the pin. 
+const int led = 13 // we can assign a name to the pin. 
 //the setup works only one time at the beginning of the program, at startup, usually for pin configurations.
 void setup() {                
   // configure output 13 like output 
