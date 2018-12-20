@@ -2,6 +2,8 @@
 
 This repository stores some projects maked with arduino, to introduce step by step, from begginers level, of microcontrollers, sensors, and other electronics components. It's recomended to see the code while reading the info. Click on the **code link** of each project for that.
 
+**There are some programs in the code folder that don't appear in this list, like the lcd screen examples**
+
 Click any project to obtain more info, schematics, and arduino code.
 
 * [Typical arduino errors](https://github.com/JaledMC/Learning-arduino/wiki/Typical-Arduino-errors): typical noob errors.
