@@ -1,23 +1,24 @@
-//para poder usar las funciones del servo, debemos llamar a su librería, copiando esta linea //de codigo de abajo, o “Sketch”, “Importar libreria”, “Servo”
+//import servo library
 #include <Servo.h>
 
 
-Servo myservo;  // creamos un objeto de tipo servo. Ya explicaremos esto mas adelante
+Servo myservo;  // Instance a servo object called "myservo". If you don't understand this line, read about object oriented
+                // programming
 
 
 void setup() {
-  myservo.attach(9);  //el servo”myservo” le conectamos al pin 9
+  myservo.attach(9);  // connect myservo to pin9
 }
 
 
 void loop() {
-    myservo.write(0);              // le decimos al servo que vaya a la posicion 0
-    delay(15);                       //esperamos 15ms a que llegue
-    myservo.write(40);              // le decimos al servo que vaya a la posicion 40
-    delay(15);                       //esperamos 15ms a que llegue
-    myservo.write(90);              // le decimos al servo que vaya a la posicion 90
-    delay(15);                       //esperamos 15ms a que llegue
-    myservo.write(120);              // le decimos al servo que vaya a la posicion 120
-    delay(15);                       //esperamos 15ms a que llegue
+    myservo.write(0);              // move the servo to position 0 degree
+    delay(15);                       //let some time to servo to archieve his position
+    myservo.write(40);              
+    delay(15);                       
+    myservo.write(90);              
+    delay(15);                       
+    myservo.write(120);              
+    delay(15);                       
   }
 
