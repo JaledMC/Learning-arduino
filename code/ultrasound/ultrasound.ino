@@ -1,10 +1,9 @@
-//variables necesarias para la medida
 long TP_init(int trigger_pin, int echo_pin);
 long Distance(int trigger_pin, int echo_pin);
- int distancia=0; //Variable para guardar la distancia
+ int distance=0; 
 void setup()
 {
-  pinMode( 11 , INPUT );        //Pines del ECHO y TRIGGER
+  pinMode( 11 , INPUT );        //ECHO and TRIGGER pins
   pinMode( 12 , OUTPUT );
   Serial.begin(9600);
 }
@@ -12,8 +11,8 @@ void setup()
 
 void loop()
 {
-distancia=Distance(12,11);     //medimos la distancia
-Serial.println(distancia);    //la imprimimos en pantalla
+distance=Distance(12,11);     //distance measurement
+Serial.println(distance);    //print the distance
 delay(100);
 }
 
@@ -22,7 +21,7 @@ delay(100);
 
 
 
-/***   Funcion de distancia   ***/
+/***   Function   ***/
 long TP_init(int trigger_pin, int echo_pin)
 {
   digitalWrite(trigger_pin, LOW);
