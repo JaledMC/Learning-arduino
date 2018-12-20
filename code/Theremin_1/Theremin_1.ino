@@ -1,12 +1,11 @@
-//Variables necesarias para emdir distancia
 long TP_init(int trigger_pin, int echo_pin);
 long Distance(int trigger_pin, int echo_pin);
- int distancia=0;        //declaramos la variable donde se guardara la distancia
+ int distancia=0;        
 
 
 void setup()
 {
-  pinMode( 11 , INPUT );        //pines ECHO y TRIGGER
+  pinMode( 11 , INPUT );        //ECHO and TRIGGER pins
   pinMode( 12 , OUTPUT );
  }
 
