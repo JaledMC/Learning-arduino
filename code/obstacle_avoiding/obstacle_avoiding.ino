@@ -1,9 +1,8 @@
-#include<Servo.h>   //Incluimos la libreria servo
- Servo myservo;     //Declaramos los objeto servo, en este caso hay 2
+#include<Servo.h>   //import servo library
+ Servo myservo;     //instance two servo objects
 Servo myservo2;
-  int distancia=0;        //declaramos la variable donde se guardara la distancia
+int distance=0;     
 
-//Variables necesarias para emdir distancia
 long TP_init(int trigger_pin, int echo_pin);
 long Distance(int trigger_pin, int echo_pin);
 
@@ -20,8 +19,8 @@ void setup()
 
 void loop()
 {
-    distancia=Distance(7,6);
-    if (distancia > 30) {
+    distance=Distance(7,6);
+    if (distance > 30) {
            myservo.write(0);
          myservo2.write(180);
      }
