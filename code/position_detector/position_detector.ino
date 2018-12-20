@@ -17,6 +17,3 @@ void loop() {
   myservo.write(pos);                  // damos la orden de movimiento al servo
   delay(15);                           // esperamos a que llegue a la posicion ordenada
 }
-
-
-
