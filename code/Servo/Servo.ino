@@ -20,5 +20,4 @@ void loop() {
     delay(15);                       
     myservo.write(120);              
     delay(15);                       
-  }
-
+}
