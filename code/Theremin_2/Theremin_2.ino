@@ -1,22 +1,21 @@
-//Variables necesarias para emdir distancia
 long TP_init(int trigger_pin, int echo_pin);
 long Distance(int trigger_pin, int echo_pin);
- int distancia=0;        //declaramos la variable donde se guardara la distancia
+int distance=0;       
 
 
 void setup()
 {
-  pinMode( 11 , INPUT );        //pines ECHO y TRIGGER
+  pinMode( 11 , INPUT );        //ECHO and TRIGGER pins
   pinMode( 12 , OUTPUT );
  }
 
 
 void loop()
 {
-  distancia=Distance(12,11);            //medimos la distancia
-  //la mapeamos para las 2 primeras octavas de la escala musical
-  distancia=map(distancia,0,3000,200,1000);        
-  tone(9,distancia,100);                //emitimos el tono obtenido
+  distance=Distance(12,11);            //distance measurement
+ //mapping distance to two first octaves
+  distance=map(distance,0,3000,200,1000);        
+  tone(9,distance,100);                //generate the tone
   delay(100);
 }
 
